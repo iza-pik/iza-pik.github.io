@@ -1,0 +1,13 @@
+.About {
+  background-color: teal;
+  color: bisque;
+}
+
+.App-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 15%;
+}

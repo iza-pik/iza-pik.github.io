@@ -1,0 +1,7 @@
+.project-card {
+  width: 20%;
+  border: 1vmin green dotted;
+  border-radius: 2vmin;
+  height: 20vmin;
+  margin: 3vmin;
+}

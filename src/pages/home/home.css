@@ -1,0 +1,18 @@
+p {
+  font-size: 18px;
+}
+
+.btn-style {
+  color: lightyellow;
+  border-radius: 5px;
+  background: teal;
+  transition: 0.3s color ease-in-out, 0.3 background ease-in-out;
+  margin-top: 20px;
+}
+
+.App-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
