@@ -8,7 +8,7 @@ class About extends Component {
         <img
           src="https://bit.ly/2FuBEdI"
           className="App-photo"
-          alt="photo of me"
+          alt="This is me!"
         />
         <p>Hello! My name is Izabela.</p>
         {this.props.children}

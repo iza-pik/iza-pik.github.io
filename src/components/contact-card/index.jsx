@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./contact-card.css";
 
 const ContactCard = props => (
   <div className={props.className}>

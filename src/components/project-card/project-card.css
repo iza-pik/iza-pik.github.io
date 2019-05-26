@@ -1,6 +1,7 @@
 .project-card {
   width: 20%;
-  border: 1vmin green dotted;
+  border: 1vmin rgb(97, 226, 97) dotted;
+  background-color: bisque;
   border-radius: 2vmin;
   height: 20vmin;
   margin: 3vmin;
