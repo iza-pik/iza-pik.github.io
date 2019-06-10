@@ -6,13 +6,11 @@ export const contact = {
 
 export const projects = [
   {
-    // url: "https://github.com/iza-pik/Tribute-Page",
-    url: "https://iza-pik.github.io/Tribute-Page",
+    url: "https://github.com/iza-pik/Tribute-Page",
     name: "Tribute Page"
   },
   {
-    // url: "https://github.com/iza-pik/Survey-Form",
-    url: "https://iza-pik.github.io/Survey-Form",
+    url: "https://github.com/iza-pik/Survey-Form",
     name: "Survey Form"
   },
   {
@@ -20,7 +18,7 @@ export const projects = [
     name: "Product Landing Page"
   },
   {
-    url: "https://iza-pik.github.io/technical-documentation-page",
+    url: "https://github.com/iza-pik/technical-documentation-page",
     name: "Technical Documentation Page"
   },
   {
