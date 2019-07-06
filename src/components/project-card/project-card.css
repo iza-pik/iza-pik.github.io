@@ -1,8 +1,22 @@
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 20%;
   border: 1vmin rgb(97, 226, 97) dotted;
   background-color: bisque;
   border-radius: 2vmin;
-  height: 20vmin;
+  height: 200px;
   margin: 3vmin;
+  color: teal;
+  font-size: calc(6px + 1vmin);
+}
+
+.project-card iframe {
+  object-position: center bottom;
+  object-fit: cover;
+}
+
+.project-card a {
+  display: block;
 }

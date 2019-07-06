@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     url: "https://github.com/iza-pik/technical-documentation-page",
-    name: "Technical Documentation Page"
+    name: "Technical Documentation"
   },
   {
     url: "https://iza-pik.github.io/weather-app",
@@ -28,5 +28,9 @@ export const projects = [
   {
     url: "https://iza-pik.github.io/game-of-life",
     name: "Game of Life"
+  },
+  {
+    url: "https://iza-pik.github.io/calculator",
+    name: "Calculator"
   }
 ];
