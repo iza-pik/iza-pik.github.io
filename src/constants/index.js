@@ -1,7 +1,8 @@
 export const contact = {
   name: "Izabela Pikula",
   email: "i.j.pikula@gmail.com",
-  tel: "+44 7975678836"
+  tel: "+44 7975678836",
+  linkedin: "https://www.linkedin.com/in/izabelapikula/"
 };
 
 export const projects = [

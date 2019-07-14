@@ -6,11 +6,25 @@ class About extends Component {
     return (
       <div className="About">
         <img
-          src="https://bit.ly/2FuBEdI"
+          src="https://bit.ly/2XNSZo3"
           className="App-photo"
           alt="This is me!"
         />
-        <p>Hello! My name is Izabela.</p>
+        <p>
+          Hello! My name is Izabela. I am a self-taught front-end developer and
+          a professional translator with a passion for both human and
+          programming languages.
+        </p>
+        <p>
+          I have worked on several projects in a team of React developers and
+          contributed to project code bases on GitHub. I have good grasp of
+          HTML5 and CSS3, knowledge of JavaScript, React.js and Git, among other
+          skills.
+        </p>
+        <p>
+          I am a creative problem-solver with an excellent eye for detail. I
+          love learning and tackling new challenges.
+        </p>
         {this.props.children}
       </div>
     );

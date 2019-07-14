@@ -2,15 +2,14 @@ import React, { Component } from "react";
 import Button from "../../components/button";
 import "./home.css";
 import { Link } from "react-router-dom";
-import myCV from "../../assets/docs/Izabela Pikula - CV - 13-07-2019.pdf";
+import myCV from "../../assets/docs/Izabela Pikula - CV - 14-07-2019.pdf";
 
 class Home extends Component {
   render() {
     return (
       <main className="App-main">
-        <p>React developer</p>
-        <p>Translator</p>
-        <p>Proofreader</p>
+        <p>Front-End Developer working with React.js</p>
+        <p>Translator / Proofreader</p>
         <p>Project Manager</p>
         <p>Hobbyist photographer and painter</p>
         <img

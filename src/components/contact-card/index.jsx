@@ -7,6 +7,7 @@ const ContactCard = props => (
       <li>{props.contact.name}</li>
       <li>Email: {props.contact.email}</li>
       <li>Tel: {props.contact.tel}</li>
+      <li>LinkedIn: {props.contact.linkedin}</li>
     </ul>
   </div>
 );
