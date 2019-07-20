@@ -4,5 +4,9 @@
   align-items: center;
   background-color: teal;
   color: bisque;
-  min-height: 93vh;
+  min-height: 95vh;
+}
+
+.projects p:last-child {
+  margin-bottom: 0;
 }
