@@ -20,3 +20,9 @@
 .project-card a {
   display: block;
 }
+
+@media only screen and (orientation: landscape) {
+  .project-card {
+    width: 25%;
+  }
+}
