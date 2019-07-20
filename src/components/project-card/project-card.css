@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 20%;
+  width: 90%;
   border: 1vmin rgb(97, 226, 97) dotted;
   background-color: bisque;
   border-radius: 2vmin;
-  height: 200px;
+  height: 50vmin;
   margin: 3vmin;
   color: teal;
-  font-size: calc(6px + 1vmin);
+  font-size: calc(5px + 1vmin);
 }
 
 .project-card iframe {

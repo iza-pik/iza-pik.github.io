@@ -1,4 +1,5 @@
 .card {
   background-color: teal;
   color: bisque;
+  min-height: 93vh;
 }

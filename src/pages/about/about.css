@@ -1,6 +1,7 @@
 .About {
   background-color: teal;
   color: bisque;
+  min-height: 93vh;
 }
 
 .App-photo {
