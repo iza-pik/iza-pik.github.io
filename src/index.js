@@ -5,20 +5,39 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages/home/";
-import About from "./pages/about/";
-import Contacts from "./pages/contacts/";
-import Projects from "./pages/projects/";
+// import Home from "./pages/home/";
+// import About from "./pages/about/";
+// import Contacts from "./pages/contacts/";
+// import Projects from "./pages/projects/";
+
+const Home = React.lazy(() =>
+  import(/* webpackChunkName: "Home", webpackPrefetch: true */ "./pages/home")
+);
+const About = React.lazy(() =>
+  import(/* webpackChunkName: "About", webpackPrefetch: true */ "./pages/about")
+);
+const Contacts = React.lazy(() =>
+  import(
+    /* webpackChunkName: "Contacts", webpackPrefetch: true */ "./pages/contacts"
+  )
+);
+const Projects = React.lazy(() =>
+  import(
+    /* webpackChunkName: "Projects", webpackPrefetch: true */ "./pages/projects"
+  )
+);
 
 ReactDOM.render(
   <Router>
     <App>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contacts" component={Contacts} />
-      </Switch>
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contacts" component={Contacts} />
+        </Switch>
+      </React.Suspense>
     </App>
   </Router>,
   document.getElementById("root")
