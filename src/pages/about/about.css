@@ -1,7 +1,11 @@
 .About {
   background-color: teal;
   color: bisque;
-  min-height: 93vh;
+  min-height: 95vh;
+}
+
+.About p:last-child {
+  margin-bottom: 0;
 }
 
 .App-photo {
