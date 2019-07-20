@@ -9,7 +9,7 @@
 }
 
 .App-photo {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
