@@ -1,4 +1,40 @@
+* {
+  color: rgb(112, 73, 73);
+}
+
+h4 {
+  text-shadow: 2px 2px 2px gray;
+  /* rgb(46, 43, 43); */
+  color: rgb(112, 73, 73);
+}
+
+/* a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: goldenrod;
+} */
+
 .contactsList {
-  background-color: teal;
+  background-image: linear-gradient(bisque 5%, teal 75%);
   list-style: none;
+  padding: 1vmax;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-logo {
+  height: 7vmax;
+  margin: 1rem;
+}
+
+.contact-icon {
+  height: calc(1.8vmax + 4px);
+  margin: 0.4rem;
 }

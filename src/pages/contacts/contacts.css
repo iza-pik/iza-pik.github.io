@@ -1,9 +1,10 @@
-.card {
+.my-card {
   background-color: teal;
   color: bisque;
   min-height: 95vh;
+  border: none;
 }
 
-.card p:last-child {
+.my-card p:last-child {
   margin-bottom: 0;
 }

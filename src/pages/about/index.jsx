@@ -1,15 +1,12 @@
 import React, { Component } from "react";
 import "./about.css";
+import MyPhoto from "../../assets/images/MyPhoto.jpg";
 
 class About extends Component {
   render() {
     return (
-      <div className="About">
-        <img
-          src="https://bit.ly/2XNSZo3"
-          className="App-photo"
-          alt="This is me!"
-        />
+      <div className="about">
+        <img src={MyPhoto} className="photo" alt="This is me!" />
         <p>
           Hello! My name is Izabela. I am a self-taught front-end developer and
           a professional translator with a passion for both human and

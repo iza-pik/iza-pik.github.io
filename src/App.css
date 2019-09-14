@@ -1,3 +1,7 @@
+body {
+  box-sizing: unset;
+}
+
 .app {
   text-align: center;
 }
@@ -17,10 +21,10 @@
   display: flex;
   justify-content: center;
   background-color: bisque;
-  height: 4vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
-  margin-bottom: 1vh;
+  padding-bottom: 1vh;
 }
 
 .nav-bar ul {
@@ -29,8 +33,21 @@
   align-items: center;
   list-style: none;
   margin-bottom: 0;
+  padding: 0;
 }
 
 .nav-bar ul li {
-  margin: 0 1vmin;
+  margin: 0 calc(1vmin + 10px);
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: rgb(66, 43, 43);
+  font-size: calc(1.5vmax + 6px);
+  font-weight: bold;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.nav-bar ul li a:hover {
+  color: goldenrod;
 }

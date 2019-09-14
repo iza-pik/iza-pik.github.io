@@ -6,7 +6,7 @@ import "./contacts.css";
 class Contacts extends Component {
   render() {
     return (
-      <div className="card">
+      <div className="my-card">
         <ContactCard contact={contact} />
       </div>
     );

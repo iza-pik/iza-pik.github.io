@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: teal;
+  background-image: linear-gradient(bisque 5%, teal 35%);
   color: bisque;
   min-height: 95vh;
 }
