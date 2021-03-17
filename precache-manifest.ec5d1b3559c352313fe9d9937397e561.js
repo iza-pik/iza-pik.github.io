@@ -8,28 +8,28 @@ self.__precacheManifest = [
     "url": "/static/js/About.72e7eee0.chunk.js"
   },
   {
-    "revision": "ab37f52625a4dea19ad7",
+    "revision": "bec20f54e291320f9546",
     "url": "/static/css/Contacts.12d54139.chunk.css"
   },
   {
-    "revision": "ab37f52625a4dea19ad7",
-    "url": "/static/js/Contacts.87f6eeb4.chunk.js"
+    "revision": "bec20f54e291320f9546",
+    "url": "/static/js/Contacts.b1403724.chunk.js"
   },
   {
-    "revision": "391ac55fa047ca13279a",
+    "revision": "fda5074197fad9b8bdbd",
     "url": "/static/css/Home.836f52ba.chunk.css"
   },
   {
-    "revision": "391ac55fa047ca13279a",
-    "url": "/static/js/Home.e2c9ca30.chunk.js"
+    "revision": "fda5074197fad9b8bdbd",
+    "url": "/static/js/Home.4bfe5fa6.chunk.js"
   },
   {
-    "revision": "8c1c7b864f9f77a3a1ee",
+    "revision": "9af96fead86355c2c003",
     "url": "/static/css/Projects.f3c2196a.chunk.css"
   },
   {
-    "revision": "8c1c7b864f9f77a3a1ee",
-    "url": "/static/js/Projects.c4292c21.chunk.js"
+    "revision": "9af96fead86355c2c003",
+    "url": "/static/js/Projects.5fc82b96.chunk.js"
   },
   {
     "revision": "055edcd822fd823f6abd",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/js/main.0c31c706.chunk.js"
   },
   {
-    "revision": "9db3d11ec69cb8d352ca",
-    "url": "/static/js/runtime~main.83a992dd.js"
+    "revision": "49d4411edbc18c78f346",
+    "url": "/static/js/runtime~main.d6fa3ce8.js"
   },
   {
     "revision": "e50e60f64022dc01e44e",
@@ -53,19 +53,19 @@ self.__precacheManifest = [
   },
   {
     "revision": "870b0ef77064e8a32c3891d550daebc4",
-    "url": "/static/media/WeatherApp.870b0ef7.JPG"
+    "url": "/static/media/WeatherApp.870b0ef7.jpg"
   },
   {
     "revision": "b134554ff3ae55a8cd251a03cb6485d7",
-    "url": "/static/media/Calculator.b134554f.JPG"
+    "url": "/static/media/Calculator.b134554f.jpg"
   },
   {
     "revision": "2791cd21f3d9efbe38cb8193a13f57ec",
-    "url": "/static/media/GameOfLife.2791cd21.JPG"
+    "url": "/static/media/GameOfLife.2791cd21.jpg"
   },
   {
     "revision": "30c898b21672598506d19706ced55bb9",
-    "url": "/static/media/TributePage.30c898b2.PNG"
+    "url": "/static/media/TributePage.30c898b2.png"
   },
   {
     "revision": "a337dd2b66fdb1daef8f7f6517a0a72f",
@@ -73,23 +73,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "f46432f55dbbe80044703e3bc689b749",
-    "url": "/static/media/Rjs.f46432f5.JPG"
+    "url": "/static/media/Rjs.f46432f5.jpg"
   },
   {
     "revision": "d25ec0e71a9763239629e44eb4db4586",
-    "url": "/static/media/RN.d25ec0e7.JPG"
-  },
-  {
-    "revision": "253f9c63a6d1f9f6064f2c546ffbffa4",
-    "url": "/static/media/ES6.253f9c63.JPG"
-  },
-  {
-    "revision": "8c7bd27feeb3186fd53121ec028296d9",
-    "url": "/static/media/HTML5.8c7bd27f.JPG"
-  },
-  {
-    "revision": "3323c8f0c4033ee799ac91a002f101a3",
-    "url": "/static/media/CSS3.3323c8f0.JPG"
+    "url": "/static/media/RN.d25ec0e7.jpg"
   },
   {
     "revision": "ad25f268d9bfc349ec6836abb7babf34",
@@ -116,7 +104,7 @@ self.__precacheManifest = [
     "url": "/static/media/Phone_icon.3127a8c0.svg"
   },
   {
-    "revision": "e881b5cf0af656f3b3ee2b257ff9a841",
+    "revision": "29a741c5757a178cf4adb08464103c82",
     "url": "/index.html"
   }
 ];
