@@ -3,18 +3,23 @@
   flex-direction: column;
   justify-content: space-between;
   width: 90%;
-  border: 1vmin rgb(97, 226, 97) dotted;
   background-color: bisque;
   border-radius: 2vmin;
   height: 50vmin;
   margin: 3vmin;
-  color: teal;
+  color: black;
   font-size: calc(5px + 1vmin);
 }
 
-.project-card iframe {
-  object-position: center bottom;
-  object-fit: cover;
+.project-card h3 {
+  font-weight: bold;
+}
+
+.project-card .project-card-thumb {
+  min-height: 40vmin;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .project-card a {

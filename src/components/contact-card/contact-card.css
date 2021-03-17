@@ -1,27 +1,17 @@
-* {
-  color: rgb(112, 73, 73);
-}
-
-h4 {
+.contactsList h4 {
   text-shadow: 2px 2px 2px gray;
-  /* rgb(46, 43, 43); */
-  color: rgb(112, 73, 73);
-}
-
-/* a {
-  text-decoration: none;
   color: black;
+  font-size: 2vmax;
+  padding-top: 1vmax;
+  padding-bottom: 1vmax;
 }
-
-a:hover {
-  text-decoration: none;
-  color: goldenrod;
-} */
 
 .contactsList {
   background-image: linear-gradient(bisque 5%, teal 75%);
   list-style: none;
-  padding: 1vmax;
+  padding: 2vmax;
+  color: black;
+  font-size: 1.3vmax;
 }
 
 .social-media {
@@ -30,11 +20,12 @@ a:hover {
 }
 
 .social-media-logo {
-  height: 7vmax;
+  padding-top: 2vmax;
+  height: 5vmax;
   margin: 1rem;
 }
 
 .contact-icon {
-  height: calc(1.8vmax + 4px);
+  height: calc(1.6vmax + 4px);
   margin: 0.4rem;
 }

@@ -1,10 +1,35 @@
 p {
-  font-size: 18px;
+  font-size: 2vh;
+  color: bisque;
+}
+
+.title1 {
+  font-size: 4vh;
+}
+
+.title2 {
+  font-size: 3.5vh;
+}
+
+.title3 {
+  font-size: 3vh;
+}
+
+.title4 {
+  font-size: 2.5vh;
 }
 
 .App-icon {
-  display: block;
+  flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
+  width: 10vmin;
+}
+
+.image-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vmax 5vmax;
+  margin-left: 20vmax;
+  margin-right: 20vmax;
 }

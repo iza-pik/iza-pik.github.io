@@ -2,9 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-image: linear-gradient(bisque 5%, teal 35%);
-  color: bisque;
+  background-image: linear-gradient(salmon 10%, teal 30%);
   min-height: 95vh;
+  overflow: hidden;
+  justify-content: space-evenly;
 }
 
 .projects p:last-child {

@@ -24,21 +24,21 @@ const ContactCard = props => (
       </li>
       <li>
         <div className="social-media">
-          <a href={props.contact.linkedin} target="_blank">
+          <a href={props.contact.linkedin} target="_blank" rel="noopener noreferrer">
             <img
               src={LinkedInLogo}
               className="social-media-logo"
               alt="LinkedIn logo"
             />
           </a>
-          <a href={props.contact.github} target="_blank">
+          <a href={props.contact.github} target="_blank" rel="noopener noreferrer">
             <img
               src={GitHubLogo}
               className="social-media-logo"
               alt="GitHub logo"
             />
           </a>
-          <a href={props.contact.instagram} target="_blank">
+          <a href={props.contact.instagram} target="_blank" rel="noopener noreferrer">
             <img
               src={InstagramLogo}
               className="social-media-logo"
