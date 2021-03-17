@@ -1,7 +1,7 @@
-import WeatherAppScreenshot from "../assets/images/WeatherApp.JPG";
-import CalculatorScreenshot from "../assets/images/Calculator.JPG";
-import GameOfLifeScreenshot from "../assets/images/GameOfLife.JPG";
-import TributePageScreenshot from "../assets/images/TributePage.PNG";
+import WeatherAppScreenshot from "../assets/images/WeatherApp.jpg";
+import CalculatorScreenshot from "../assets/images/Calculator.jpg";
+import GameOfLifeScreenshot from "../assets/images/GameOfLife.jpg";
+import TributePageScreenshot from "../assets/images/TributePage.png";
 
 export const contact = {
   name: "Izabela Pikula",
@@ -44,5 +44,9 @@ export const projects = [
     url: "https://iza-pik.github.io/calculator",
     name: "Calculator",
     screenshot: CalculatorScreenshot,
+  },
+  {
+    url: "https://iza-pik.github.io/financial-calculator",
+    name: "Financial Calculator",
   },
 ];

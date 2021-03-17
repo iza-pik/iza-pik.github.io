@@ -3,11 +3,11 @@ import Button from "../../components/button";
 import "./home.css";
 import { Link } from "react-router-dom";
 import myCV from "../../assets/docs/Izabela Pikula - CV - August 2019.pdf";
-import RjsIcon from "../../assets/images/Rjs.JPG";
-import RNIcon from "../../assets/images/RN.JPG";
-import ES6Icon from "../../assets/images/ES6.JPG";
-import HTML5Icon from "../../assets/images/HTML5.JPG";
-import CSS3Icon from "../../assets/images/CSS3.JPG";
+import RjsIcon from "../../assets/images/Rjs.jpg";
+import RNIcon from "../../assets/images/RN.jpg";
+import ES6Icon from "../../assets/images/ES6.jpg";
+import HTML5Icon from "../../assets/images/HTML5.jpg";
+import CSS3Icon from "../../assets/images/CSS3.jpg";
 
 class Home extends Component {
   render() {
