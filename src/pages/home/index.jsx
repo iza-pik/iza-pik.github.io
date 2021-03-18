@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Button from "../../components/button";
 import "./home.css";
 import { Link } from "react-router-dom";
-import myCV from "../../assets/docs/Izabela Pikula - CV - August 2019.pdf";
+import myCV from "../../assets/docs/Izabela Pikula - CV - 18-03-2021.pdf";
 import RjsIcon from "../../assets/images/Rjs.jpg";
 import RNIcon from "../../assets/images/RN.jpg";
 import ES6Icon from "../../assets/images/ES6.jpg";

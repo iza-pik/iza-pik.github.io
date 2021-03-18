@@ -17,7 +17,7 @@ class About extends Component {
         </p>
         <p>
           I have worked on several projects in a team of React developers and
-          contributed to project code bases on GitHub. I have a good grasp of <span>HTML5</span> and <span>CSS3</span>, <span>JavaScript</span>, <span>React.js</span> and <span>Git</span> and currently learing to create mobile apps using React Native.
+          contributed to project code bases on GitHub. I have a good grasp of <span>HTML5</span> and <span>CSS3</span>, <span>JavaScript</span>, <span>React.js</span> and <span>Git</span> and currently learing to create mobile apps using <span>React Native</span>.
         </p>
         <p>
           I am a creative problem-solver with an excellent eye for detail. I
