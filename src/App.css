@@ -1,16 +1,10 @@
 * {
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-body {
-  box-sizing: unset;
+  box-sizing: border-box;
 }
 
 .app {
   text-align: center;
-}
-
-.App-main {
   background-color: #282c34;
   min-height: 95vh;
   display: flex;

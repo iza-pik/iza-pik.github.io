@@ -1,10 +1,11 @@
 p {
-  font-size: 2vh;
   color: bisque;
+  font-size: 2vh;
 }
 
 .title1 {
-  font-size: 4vh;
+  font-size: 4.5vh;
+  margin-top: 2vh;
 }
 
 .title2 {
@@ -15,11 +16,7 @@ p {
   font-size: 3vh;
 }
 
-.title4 {
-  font-size: 2.5vh;
-}
-
-.App-icon {
+.app-icon {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
@@ -29,7 +26,16 @@ p {
 .image-box {
   display: flex;
   justify-content: space-between;
-  padding: 5vmax 5vmax;
-  margin-left: 20vmax;
-  margin-right: 20vmax;
+  align-items: center;
+  margin: 7vw 7vw;
+  padding: 3vw 3vw;
+}
+
+@media (min-width: 600px) {
+  .title1 {
+    margin-top: 10vh;
+  }
+  .image-box {
+    margin: 0 20vw;
+  }
 }
